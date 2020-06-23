@@ -18419,7 +18419,19 @@ ClickDetector.MouseClick:Connect(function(player)
     xpStore:Increment(24)
 end)
 
--- yeet]]></ProtectedString>
+-- yeett]]></ProtectedString>
+				<BinaryString name="Tags"></BinaryString>
+			</Properties>
+		</Item>
+		<Item class="Script" referent="RBXEA3EE77FD4714C17AF5503DD2F629A26">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<bool name="Disabled">false</bool>
+				<Content name="LinkedSource"><null></null></Content>
+				<string name="Name">Script</string>
+				<string name="ScriptGuid">{22561902-E2F7-4E1E-BB90-346BD9AB8921}</string>
+				<ProtectedString name="Source"><![CDATA[print("Hello world!")
+]]></ProtectedString>
 				<BinaryString name="Tags"></BinaryString>
 			</Properties>
 		</Item>
