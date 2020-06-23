@@ -40,26 +40,26 @@
 			<Properties>
 				<BinaryString name="AttributesSerialize"></BinaryString>
 				<CoordinateFrame name="CFrame">
-					<X>20.3986359</X>
-					<Y>70.1531372</Y>
-					<Z>36.0433121</Z>
-					<R00>0.867711067</R00>
-					<R01>-0.362562329</R01>
-					<R02>0.34003824</R02>
-					<R10>-1.49011594e-08</R10>
-					<R11>0.6840868</R11>
-					<R12>0.729400635</R12>
-					<R20>-0.497068822</R20>
-					<R21>-0.632909</R21>
-					<R22>0.593589723</R22>
+					<X>-43.0458908</X>
+					<Y>41.5914421</Y>
+					<Z>23.4392242</Z>
+					<R00>0.999509275</R00>
+					<R01>0.0109376311</R01>
+					<R02>-0.0293540955</R02>
+					<R10>-0</R10>
+					<R11>0.937063456</R11>
+					<R12>0.349159241</R12>
+					<R20>0.0313256234</R20>
+					<R21>-0.348987907</R21>
+					<R22>0.936603546</R22>
 				</CoordinateFrame>
 				<Ref name="CameraSubject">null</Ref>
 				<token name="CameraType">0</token>
 				<float name="FieldOfView">70</float>
 				<CoordinateFrame name="Focus">
-					<X>-0.343770027</X>
-					<Y>25.6595459</Y>
-					<Z>-0.165785789</Z>
+					<X>-42.9871826</X>
+					<Y>40.8931236</Y>
+					<Z>21.5660172</Z>
 					<R00>1</R00>
 					<R01>0</R01>
 					<R02>0</R02>
@@ -75,6 +75,13 @@
 				<string name="Name">Camera</string>
 				<BinaryString name="Tags"></BinaryString>
 			</Properties>
+			<Item class="Folder" referent="RBX26D8F02284204BD487E1906E921D1C95">
+				<Properties>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<string name="Name">Frame3DFolder</string>
+					<BinaryString name="Tags"></BinaryString>
+				</Properties>
+			</Item>
 		</Item>
 		<Item class="Terrain" referent="RBX6F62D41690B64BD79BBBFAC05CBB9AFF">
 			<Properties>
@@ -18442,6 +18449,18 @@ end)
 			<string name="Name">ServerStorage</string>
 			<BinaryString name="Tags"></BinaryString>
 		</Properties>
+		<Item class="Script" referent="RBX7FE285511A3B4C3AA3D25C86BF8F0ADE">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<bool name="Disabled">false</bool>
+				<Content name="LinkedSource"><null></null></Content>
+				<string name="Name">MyScript</string>
+				<string name="ScriptGuid">{0037B3D0-AA05-48FA-9EA2-25AA661176ED}</string>
+				<ProtectedString name="Source"><![CDATA[print("Hello world!")
+]]></ProtectedString>
+				<BinaryString name="Tags"></BinaryString>
+			</Properties>
+		</Item>
 	</Item>
 	<Item class="ReplicatedStorage" referent="RBX46477D2FCC234863A9FFFAF80A65C53F">
 		<Properties>
